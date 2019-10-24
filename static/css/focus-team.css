@@ -1,0 +1,106 @@
+
+/*
+ * banner图CSS
+ */
+.head-bgimg{
+	background: url(../image/authority-banner.png) no-repeat center center;
+ 	-webkit-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 885px;
+  	overflow: hidden;
+}
+.body-bgimg{
+	background: url(../image/head-bgimg.png) no-repeat center center;
+ 	-webkit-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 720px;
+  	overflow: hidden;
+}
+/*
+ * 专注卓越CSS
+ */
+
+.body1{
+	background: url(../image/focus-bgimg.png) center center no-repeat;
+	-webkit-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 600px;
+  	overflow: hidden;
+}
+.body1-zhuti{
+	width: 1200px;
+	margin: 50px auto;
+	height: 100%;
+}
+.body1-zhuti ul{
+	display: flex;
+	justify-content: space-between;
+}
+.body1-zhuti ul li{
+	width: 340px;
+}
+.body1-zhuti ul li h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+}
+.body1-zhuti ul li p{
+	font-size: 20px;
+}
+.body1-zhuti ul li p:nth-child(3){
+	margin-top: 20px;
+	/*letter-spacing: 1px;*/
+	line-height: 40px;
+}
+.body1-zhuti ul li p:nth-child(4){
+	margin-top: 20px;
+	text-align: center;
+	color: #FF3232;
+	font-weight: bold;
+}
+
+
+/*
+ * 橘子情感导师团队CSS
+ */
+.body2{
+	background: url(../image/mentor-team-bgimg.png) center center no-repeat;
+	-webkit-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 750px;
+  	overflow: hidden;
+}
+.body2-zhuti{
+	width: 1200px;
+	margin: 70px auto;
+	color: #F0F0F0;
+}
+.body2-zhuti h2{
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	border: 1px solid #000;
+	width: 280px;
+	margin: 0 auto;
+	color: #000;
+}
+.body2-zhuti p{
+	font-size: 16px;
+	width: 900px;
+	margin: 20px auto;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-indent: 36px;
+	color: #000;
+}
+.module03-page .item-group .item .pic img{
+	width: 271px;
+	height: 348px;
+}
+.module03-page .item-group .item{
+	margin: 0 50px;
+}

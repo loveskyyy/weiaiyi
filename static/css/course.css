@@ -1,0 +1,476 @@
+
+/*
+ * banner图CSS
+ */
+
+.head-bgimg {
+	background: url(../image/authority-banner1.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 885px;
+	overflow: hidden;
+}
+
+.body-bgimg {
+	background: url(../image/head-bgimg1.png) no-repeat -120px 0px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+}
+@media only screen and (max-width: 1199px) {
+	.body-bgimg {
+		background: url(../image/head-bgimg1.png) no-repeat 1px -505px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		width: 100%;
+		height: 800px;
+		overflow: hidden;
+}
+}
+.body-bgimg p{
+	text-align: center;
+	font-size: 24px;
+	color: #2D2D2D;
+	margin-top: 20px;
+}
+.body-bgimg p:nth-child(1){
+	margin-top: 500px;
+}
+
+/*
+ * 橘子高级方案CSS
+ */
+
+.body1 {
+	background: url(../image/advanced-bgimg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+}
+
+.body1 h3 {
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.body1 p {
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+	font-size: 22px;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+
+.body1-ul {
+	width: 1200px;
+	margin: 50px auto;
+	position: relative;
+}
+.body1-ul li{
+	margin-left: 150px;
+}
+.body1-ul p {
+	display: block;
+	margin-top: 20px;
+}
+
+.body1-ul1 {
+	position: absolute;
+	left: -160%;
+	display: flex;
+	justify-content: space-around;
+	height: 320px;
+}
+
+.body1-ul2 {
+	margin-top: 300px;
+	position: absolute;
+	right: -160%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/*
+ * 私人订制课程服务简介
+ */
+
+.body3 {
+	background: url(../image/personal-bgimg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 1310px;
+	overflow: hidden;
+}
+
+.body3-head {
+	margin-top: 200px;
+	color: #F0F0F0;
+	width: 630px;
+	margin-left: 800px;
+}
+
+@media only screen and (max-width: 1199px) {
+	.body3-head {
+		margin-left: 600px;
+	}
+}
+
+.body3-head-h2 {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.body3-head-p {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+.body3-ul {
+	width: 1500px;
+	margin: 200px auto;
+	position: relative;
+}
+
+.body3-ul p {
+	color: #BFBFBF;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.body3-ul div {
+	margin-top: 5px;
+	width: 100%;
+	height: 5px;
+}
+
+.body3-ul li:nth-child(1):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(2):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(3):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(4):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(5):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(6):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(7):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(8):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(9):hover div {
+	color: #FFFFFF;
+	background-color: #FF3232;
+	box-shadow: 0 5px 10px #FF3232;
+}
+
+.body3-ul li:nth-child(1):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(2):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(3):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(4):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(5):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(6):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(7):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(8):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul li:nth-child(9):hover p {
+	color: #FFFFFF;
+}
+
+.body3-ul1 {
+	display: flex;
+	justify-content: space-around;
+	height: 350px;
+	width: 1200px;
+	margin-left: 150px;
+	position: absolute;
+	left: 120%;
+}
+
+.body3-ul2 {
+	display: flex;
+	justify-content: space-around;
+	height: 350px;
+	width: 1500px;
+	position: absolute;
+	right: 120%;
+	margin-top: 300px;
+}
+
+
+/*
+ * 私人订制课程服务简介底部
+ */
+
+.body4 {
+	background-color: #2D2D2D;
+	width: 100%;
+	height: 700px;
+	margin-top: 50px;
+}
+
+.body4-tu {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.body4-wen {
+	width: 1200px;
+	margin: 50px auto;
+	color: #F0F0F0;
+}
+
+.body4-wen ul {
+	width: 1200px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+.body4-wen ul li {
+	text-align: center;
+}
+
+.body4-wen ul li h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.body4-wen ul li p {
+	font-size: 18px;
+	margin-top: 10px;
+}
+.body4-wen-li1{
+	position: absolute;
+	left: 7%;
+	bottom: -900px;
+}
+.body4-wen-li2{
+	position: absolute;
+	left: 41.5%;
+	bottom: -900px;
+}
+.body4-wen-li3{
+	position: absolute;
+	right: 6.5%;
+	bottom: -900px;
+}
+/*
+ * 橘子情感导师团队
+ */
+
+.body5 {
+	background: url(../image/mentor-team-bgimg1.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 947px;
+	overflow: hidden;
+}
+
+/*
+ * 服务步骤CSS
+ */
+
+.body7 {
+    background: url(../image/service-step-bgimg.png) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 485px;
+    overflow: hidden;
+    position: relative;
+}
+
+.body7 ul {
+	position: absolute;
+    width: 1350px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    left: -80%;
+}
+@media only screen and (max-width: 1199px) {
+	.body7 ul {
+    	left: -100%;
+	}
+}
+.body7 ul li {
+    width: 238px;
+    height: 250px;
+}
+
+.body7 ul li p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.body7 ul li p:nth-child(1) {
+    color: #2D2D2D;
+    padding-top: 170px;
+}
+
+.body7-li1 {
+	 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img1.png) center -10px no-repeat;
+}
+
+.body7-li1:hover {
+   
+    background: url(../image/service-step-img01.png) center -10px no-repeat;
+}
+
+.body7-li2 {
+		 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img2.png) center -10px no-repeat;
+}
+
+.body7-li2:hover {
+    background: url(../image/service-step-img02.png) center -10px no-repeat;
+}
+
+.body7-li3 {
+		 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img3.png) center -10px no-repeat;
+}
+
+.body7-li3:hover {
+    background: url(../image/service-step-img03.png) center -10px no-repeat;
+}
+
+.body7-li4 {
+		 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img4.png) center -10px no-repeat;
+}
+
+.body7-li4:hover {
+    background: url(../image/service-step-img04.png) center -10px no-repeat;
+}
+
+.body7-li5 {
+		 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img5.png) center -10px no-repeat;
+}
+
+.body7-li5:hover {
+    background: url(../image/service-step-img05.png) center -10px no-repeat;
+}
+
+.body7-li6 {
+		 -moz-transition: background 1s;
+    /* Firefox 4 */
+    -webkit-transition: background 1s;
+    /* Safari 和 Chrome */
+    -o-transition: background 1s;
+    /* Opera */
+  	 transition: background 1s;
+    background: url(../image/service-step-img6.png) center -10px no-repeat;
+}
+
+.body7-li6:hover {
+    background: url(../image/service-step-img06.png) center -10px no-repeat;
+}

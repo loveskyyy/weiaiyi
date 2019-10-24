@@ -1,0 +1,36 @@
+.page-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    text-align: center;
+    list-style: none;
+    height: 45px;
+}
+.page>li{
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.page .pageItem{
+    border: solid thin #DDDDDD;
+    margin: 5px;
+}
+.page .pageItemActive{
+    border: solid thin #fd3232;
+    margin: 5px;
+    background-color: #fd3232;
+    color:white;
+}
+.page .pageItem:hover{
+    border: solid thin #fd3232;
+    background-color: #fd3232;
+    color:white;
+}
+.page .pageItemDisable{
+    border: solid thin #DDDDDD;
+    margin: 5px;
+    background-color: #DDDDDD;
+}

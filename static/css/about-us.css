@@ -1,0 +1,257 @@
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.child-page .head-bgimg {
+  width: 100%;
+  height: 680px;
+  background: url(../image/leading-edge-bgimg.png) center center no-repeat;
+  background-size: 100%;
+}
+.child-page .head1 {
+  width: 100%;
+  height: 851px;
+  background: url(../image/Understanding-bgimg.png) center center no-repeat;
+}
+.child-page .body1 {
+  width: 100%;
+  min-width: 1106px;
+  height: 550px;
+  background: url(../image/media-bgimg.png) center center no-repeat;
+  background-size: 100%;
+  background-position: 0 0;
+}
+.child-page .body1 .left {
+  float: left;
+}
+.child-page .body1 .left ul {
+  margin-top: 70px;
+  margin-left: 500px;
+}
+.child-page .body1 .left ul li {
+  margin-top: 60px;
+  font-size: 24px;
+}
+@media only screen and (max-width: 1199px) {
+  .child-page .body1 .left ul {
+    margin-top: 50px;
+    margin-left: 350px;
+  }
+  .child-page .body1 .left ul li {
+    margin-top: 34px;
+    font-size: 24px;
+  }
+}
+.child-page .body1 .right {
+  float: right;
+}
+.child-page .body1 .right ul {
+  margin-top: 20px;
+  margin-right: 400px;
+}
+.child-page .body1 .right ul li {
+  width: 760px;
+  height: 520px;
+}
+.child-page .body1 .right ul li img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 1199px) {
+  .child-page .body1 .right ul {
+    margin-top: 20px;
+    margin-right: 300px;
+  }
+  .child-page .body1 .right ul li {
+    width: 600px;
+    height: 400px;
+  }
+  .child-page .body1 .right ul li img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.child-page .body2 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #EDEDED;
+}
+.child-page .body2 .ul1 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 320px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.child-page .body2 .ul1 li {
+  text-align: center;
+  font-size: 20px;
+}
+.child-page .body2 .ul1 li a {
+  color: #2D2D2D;
+  transition: color .3s;
+}
+.child-page .body2 .ul1 li:nth-child(1):hover a {
+  color: #FF3232;
+}
+.child-page .body2 .ul1 li:nth-child(2):hover a {
+  color: #FF3232;
+}
+.child-page .body2 .ul1 li:nth-child(3):hover a {
+  color: #FF3232;
+}
+
+
+/* Start : more dynamic - 更多动态 */
+.more-dynamic {
+  background: url("../image/more-dynamic-bg.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 552px;
+}
+.more-dynamic .pointer {
+  cursor: pointer;
+  color: #313131;
+}
+.more-dynamic-inner {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 3px solid #dbdbdb;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.more-dynamic-inner-title p {
+  font-family: "Microsoft YaHei";
+  font-size: 30px;
+  line-height: 26px;
+  height: 26px;
+  color: #2d2d2d;
+  padding-top: 42px;
+  padding-bottom: 64px;  /* 这里原来是 32px */
+  cursor: pointer;
+}
+
+.more-dynamic-inner-pagination-content {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 52px;
+}
+.pagination-content-page {
+  display: none;
+}
+.pagination-content-page.active {
+  display: block;
+}
+.pagination-content-page-news {
+  width: 858px;
+}
+.pagination-content-page-news-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 5px;
+  height: 48px;
+  line-height: 48px;
+}
+.pagination-content-page-news-item:nth-child(odd) {
+  background: #eaeaea;
+}
+.pagination-content-page-news-item:nth-child(even) {
+  background: #f2f2f1;
+}
+.pagination-content-page-news-item:nth-child(2) {
+  position: relative;
+  left: 40px;
+}
+.pagination-content-page-news-item:nth-child(3) {
+  position: relative;
+  left: 80px;
+}
+.pagination-content-page-news-item:nth-child(4) {
+  position: relative;
+  left: 120px;
+}
+.pagination-content-page-news-item:nth-child(5) {
+  position: relative;
+  left: 160px;
+}
+.pagination-content-page-news-item:nth-child(6) {
+  position: relative;
+  left: 200px;
+}
+.pagination-content-page-news-item p {
+  font-size: 20px;
+  color: #2d2d2d;
+}
+.pagination-content-page-news-item a {
+  font-size: 16px;
+  color: #919191;
+  transition: color .3s;
+}
+.pagination-content-page-news-item a:hover {
+  color: #fd3232;
+}
+
+.more-dynamic-inner-pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  top: 24px;
+  right: 85px;
+}
+.more-dynamic-inner-pagination-container span {
+  cursor: pointer;
+}
+.pagination-first-page,
+.pagination-prev-page,
+.pagination-pages,
+.pagination-next-page,
+.pagination-last-page {
+  display: inline-block;
+}
+.pagination-pages {
+  display: flex;
+  justify-content: center;
+}
+.pagination-page-item {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  margin: 0 5px;
+}
+.pagination-page-item.active {
+  border-color: #333333;
+  background: #333333;
+  color: #fff;
+}
+.pagination-first-page,
+.pagination-prev-page,
+.pagination-next-page,
+.pagination-last-page {
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  background: #ededed;
+  border: 1px solid #dddddd;
+  margin: 0 5px;
+
+  /* 当页面增多以后，删除下面三条语句 */
+  /*cursor: "not-allowed";
+  background: #ddd;
+  border: 1px solid #ddd;*/
+}
+/* End : more dynamic - 更多动态 */
+
+
+.child-page .body3 {
+  width: 100%;
+  height: 1088px;
+  background: url(../image/orange-honor.png) center center no-repeat;
+}

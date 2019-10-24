@@ -1,0 +1,146 @@
+/*
+* created by smpower
+* email: bzsjxhywrf@outlook.com
+* github: https://github.com/smpower/
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: "Microsoft YaHei";
+}
+a:hover {
+  color: #fff;
+}
+a:link {
+  text-decoration: none;
+}
+.nav .inner ul li.active {
+  background-color: #fd3232;
+  color: #fff;
+}
+/* 模块公共样式 */
+.module .title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2d2d2d;
+}
+.module .title h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.module .title .subtitle {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+}
+.module-title .line {
+  width: 100%;
+  border-top: 2px solid #d6d5d5;
+  position: relative;
+  top: 66px;
+}
+.module-title .txt {
+  margin: 0 auto;
+  position: relative;
+  bottom: -38px;
+  color: #2d2d2d;
+}
+.module-title .txt h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+.module-title .txt p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+}
+.main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 模块公共样式 */
+.banner {
+  background: url("../image/forum-banner.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+}
+.child-page .main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.child-page .module.module-01 {
+  margin-top: 75px;
+}
+.child-page .module.module-01 .module-title .txt {
+  width: 484px;
+  background: url("../image/forum-title-icon01.png") no-repeat center 8px;
+}
+.child-page .module.module-01 .main {
+  margin: 75px auto 0;
+  min-width: 1200px;
+  width: 1200px;
+  padding: 10px 20px;
+}
+.child-page .module.module-01 .main .para p {
+  color: #2d2d2d;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 30px;
+}
+.child-page .module.module-01 .main .para p:last-child {
+  padding-bottom: 0;
+}
+.child-page .module.module-01 .main .book-list {
+  padding-top: 16px;
+}
+.child-page .module.module-01 .main .book-list .item {
+  padding: 42px 120px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+}
+.child-page .module.module-01 .main .book-list .item .left-pic {
+  width: 263px;
+  height: 331px;
+}
+.child-page .module.module-01 .main .book-list .item .left-pic img {
+  width: 100%;
+}
+.child-page .module.module-01 .main .book-list .item .right-txt {
+  width: 720px;
+  padding: 0 0 0 54px;
+}
+.child-page .module.module-01 .main .book-list .item .right-txt p {
+  color: #2d2d2d;
+}
+.child-page .module.module-01 .main .book-list .item .right-txt p.topic {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fd3232;
+  height: 36px;
+  line-height: 36px;
+  padding-top: 4px;
+}
+.child-page .module.module-01 .main .book-list .item .right-txt p.des {
+  padding-top: 27px;
+  padding-left: 12px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.child-page .module.module-01 .main .book-list .item:nth-child(3) .right-txt p.topic {
+  padding-bottom: 70px;
+}
+.child-page .module.module-01 .main .book-list .item:last-child {
+  border-bottom: 0;
+}

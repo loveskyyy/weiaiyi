@@ -1,0 +1,310 @@
+/* 样式预设 */
+html, body, h1, h2, h3, h4, h5, h6, p ,ol, ul, li, pre, code, address, variable, form, fieldset, blockquote, div, dd, dl, dt, apan, ol, ul, span,input {
+  margin:0;
+  padding:0;
+  border:0;
+  cursor: default;
+}
+
+a{color:#fff; text-decoration:none;}
+a:hover{text-decoration:none;}
+a, a:visited, a:focus, a:active, a:hover{outline:0 none !important;}
+a:focus{outline:none;}
+ol,li,ul{list-style:none;}
+
+.nav-hide {
+  position: fixed;
+  top: 0;
+  height: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.inner {
+  width: 1106px;
+  margin: 0 auto;
+}
+.nav-block li a{
+  width: 120px;
+  height: 50px;
+  display: block;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.header-pull-left {
+  float: left;
+}
+
+.header-pull-right {
+  float: right;
+}
+
+
+/* 页面头部 */
+header {
+  min-width: 1500px;
+  height: 145px;
+}
+
+header .inner {
+  height: 100%;
+  position: relative;
+}
+
+header .inner .pull-left {
+  padding-left: 17px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .inner .pull-right {
+  display: flex;
+  margin-top: 27px;
+}
+
+header .inner .pull-right .icon {
+  padding-right: 10px;
+}
+
+header .inner .pull-right .icon .num-phone {
+  padding-top: 25px;
+}
+
+header .inner .pull-right .txt p {
+  color: #2d2d2d;
+}
+
+header .inner .pull-right .txt p:first-child {
+  padding-top: 5px;
+  cursor: default;
+}
+
+header .inner .pull-right .txt p:nth-child(2) {
+  position: relative;
+  top: 5px;
+  padding-top: 15px;
+}
+
+header .inner .pull-right .txt p:last-child {
+  font-size: 30px;
+}
+
+@media (min-width: 1337px) {
+  header .wechat {
+    position: absolute;
+    top: 2px;
+    right: -107px;
+    margin-top: 27px;
+    display: none;
+  }
+}
+
+@media (max-width: 1337px) {
+  header .wechat {
+    position: absolute;
+    top: 2px;
+    right: 270px;
+    margin-top: 27px;
+    display: none;
+  }
+}
+
+
+/* /页面头部 */
+#wap{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 1106px;
+  overflow: hidden;
+}
+
+.flexslider{
+  position:relative;
+  height:885px;
+  overflow:hidden;
+}
+.slides{
+  position:relative;
+  z-index:1;
+}
+.slides li{
+  height:885px;
+}
+.h86{
+  height: 86px;
+}
+
+/* 导航栏 */
+.nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #2D2D2D;
+  margin: 0 auto;
+}
+
+.nav .inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.nav .inner ul {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+  height: 50px;
+}
+
+.nav .inner ul li {
+  flex-grow: 1;
+  background-color: transparent;
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  transition: background-color .3s;
+}
+.nav .inner ul li:hover {
+  background-color: #ff3232;
+}
+.nav .inner ul li a:link,a:visited,a:hover,a:active{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+}
+/* /导航栏 */
+
+
+/* 二级菜单 */
+.nav1 {
+  position: relative;
+  width: 100%;
+  min-width: 1106px;
+  height: 150px;
+  background: #2D2D2D;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.nav1 .inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.nav1 .inner ul {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+
+.nav1 .inner ul li {
+  flex-grow: 1;
+  background-color: transparent;
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  transition: background-color .3s;
+}
+.nav1 .inner ul li{
+  line-height: 250px;
+  color: #fff;
+}
+.nav1 .inner ul li:hover a{
+  color: #FF3232;
+}
+.nav1 ul li:nth-child(1){
+  background: url("../image/icon-team-white.png") no-repeat center 15%;
+}
+.nav1 ul li:nth-child(1):hover{
+  background: url("../image/icon-team-red.png") no-repeat center 15%;
+  color: #FD3232;
+}
+.nav1 ul li:nth-child(2){
+  background: url("../image/icon-person-white.png") no-repeat center 15%;
+}
+.nav1 ul li:nth-child(2):hover{
+  background: url("../image/icon-person-red.png") no-repeat center 15%;
+  color: #FD3232;
+}
+.nav1 ul li:nth-child(3){
+  background: url("../image/icon-save-love-white.png") no-repeat center 15%;
+}
+.nav1 ul li:nth-child(3):hover{
+  background: url("../image/icon-save-love-red.png") no-repeat center 15%;
+  color: #FD3232;
+}
+.nav1 ul li:nth-child(4){
+  background: url("../image/icon-serve-white.png") no-repeat center 15%;
+}
+.nav1 ul li:nth-child(4):hover{
+  background: url("../image/icon-serve-red.png") no-repeat center 15%;
+  color: #FD3232;
+}
+.nav1 ul li span a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* /二级菜单 */
+
+.lunbo1{
+  width: 100%;
+  min-width: 1106px;
+}
+
+
+/* 隐藏的二级导航菜单 */
+.sec-nav-hide {
+  width: 100%;
+  height: 50px;
+  opacity: 0;
+  background-color: #2d2d2d;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+  position: fixed;
+  top: -50px;
+  z-index: 14;
+  transition: all .5s;
+}
+.sec-nav-hide .sec-nav-inner {
+  width: 1106px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sec-nav-hide .sec-nav-inner a {
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  transition: all .5s;
+}
+.sec-nav-hide .sec-nav-inner a:hover {
+  background-color: #fd3232;
+}
+.sec-nav-hide .sec-nav-inner a.active {
+  background-color: #fd3232;
+}

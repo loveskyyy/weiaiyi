@@ -1,0 +1,76 @@
+/*
+ * crumb.css
+ * 面包屑导航样式表
+ */
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+.crumb {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.crumb a {
+ text-decoration: none;
+ color: #000;
+ font-size: 12px;
+ display: inline-block;
+ height: 25px;
+ line-height: 25px;
+ text-align: center;
+ position: relative;
+}
+
+.crumb span {
+  display: inline-block;
+}
+
+.crumb span a {
+  position: relative;
+  background: #f1f0f2;
+  padding: 0 15px;
+}
+
+.crumb span a span {
+  position: absolute;
+  top: 0;
+}
+
+.crumb span:first-child a span {
+  width: 13px;
+  height: 25px;
+  right: -13px;
+  background: url("../image/icon-right.png") no-repeat center center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.crumb span:last-child {
+  margin-left: 20px;
+}
+
+.crumb span:last-child a span:first-child {
+  width: 13px;
+  height: 25px;
+  left: -13px;
+  background: url("../image/icon-left.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.crumb span:last-child a span:last-child {
+  width: 13px;
+  height: 25px;
+  right: -13px;
+  background: url("../image/icon-right.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.mentorName{
+	display: inline;
+}
+.imgnh{
+  margin: auto 0;
+}

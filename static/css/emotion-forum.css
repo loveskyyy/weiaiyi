@@ -1,0 +1,282 @@
+/*
+* created by smpower
+* email: bzsjxhywrf@outlook.com
+* github: https://github.com/smpower/
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  color: #fff;
+}
+a:link {
+  text-decoration: none;
+}
+.nav .inner ul li.active {
+  background-color: #fd3232;
+  color: #fff;
+}
+/* 模块公共样式 */
+.module .title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2d2d2d;
+}
+.module .title h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.module .title .subtitle {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+}
+.module-title .line {
+  width: 100%;
+  border-top: 2px solid #d6d5d5;
+  position: relative;
+  top: 66px;
+}
+.module-title .txt {
+  margin: 0 auto;
+  position: relative;
+  bottom: -38px;
+  color: #2d2d2d;
+}
+.module-title .txt h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+.module-title .txt p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+}
+.main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 模块公共样式 */
+.banner {
+  background: url("../image/banner.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+}
+.child-page .main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.child-page .module.module-01 .module-title .txt {
+  width: 403px;
+  background: url("../image/title-icon03.png") no-repeat center 8px;
+}
+.child-page .module.module-01 .main {
+  margin: 0 auto;
+  min-width: 1200px;
+  width: 1200px;
+}
+.child-page .module.module-01 .main .top {
+  margin: 0;
+  padding: 0;
+}
+.child-page .module.module-01 .main .top .row {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .child-page .module.module-01 .main .top .row {
+    padding: 0 40px;
+  }
+}
+.child-page .module.module-01 .main .top .row .left-banner {
+  padding: 0;
+}
+@media (max-width: 1200px) {
+  .child-page .module.module-01 .main .top .row .left-banner {
+    position: relative;
+    right: 20px;
+  }
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container {
+  width: 693px;
+  margin: 0;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container .swiper-wrapper {
+  position: relative;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container .swiper-wrapper .des {
+  font-size: 22px;
+  padding-left: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 45px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  opacity: 0;
+  transition: all .3s;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container .swiper-pagination {
+  bottom: 0;
+  width: 693px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #d6d6d6;
+  position: relative;
+  left: 35%;
+  bottom: 45px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  transition: bottom .3s;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fd3232;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container:hover .swiper-wrapper .des {
+  height: 45px;
+  opacity: 1;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container:hover .swiper-pagination {
+  height: 45px;
+}
+.child-page .module.module-01 .main .top .row .left-banner .swiper-container:hover .swiper-pagination .swiper-pagination-bullet {
+  bottom: 0;
+}
+.child-page .module.module-01 .main .top .row .right-news {
+  padding: 0;
+}
+.child-page .module.module-01 .main .top .row .right-news .pic {
+  width: 413px;
+  height: 235px;
+}
+.child-page .module.module-01 .main .top .row .right-news .pic img {
+  width: 100%;
+}
+.child-page .module.module-01 .main .top .row .right-news .txt {
+  border-left: 12px solid #fd3232;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.child-page .module.module-01 .main .top .row .right-news .txt .title {
+  color: #2d2d2d;
+  font-size: 24px;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 6px;
+}
+.child-page .module.module-01 .main .top .row .right-news .link a {
+  display: block;
+  color: #2d2d2d;
+  font-size: 20px;
+  height: 46px;
+  line-height: 46px;
+  transition: color .3s;
+}
+.child-page .module.module-01 .main .top .row .right-news .link a:hover {
+  color: #fd3232;
+}
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .child-page .module.module-01 .main .top .row .left-banner {
+    position: relative;
+    right: 30px;
+  }
+  .child-page .module.module-01 .main .top .row .right-news {
+    position: relative;
+    left: 30px;
+  }
+}
+.child-page .module.module-01 .main .bot {
+  margin-top: 45px;
+}
+@media (max-width: 1200px) {
+  .child-page .module.module-01 .main .bot .part {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+.child-page .module.module-01 .main .bot .part .title {
+  color: #2d2d2d;
+  font-size: 30px;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  border-left: 12px solid #fd3232;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+.child-page .module.module-01 .main .bot .part .item-group {
+  display: none;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 82px;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .left-pic {
+  position: relative;
+  width: 396px;
+  height: 234px;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .left-pic img {
+  width: 100%;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .left-pic .pic-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .left-pic:hover .pic-hidden {
+  opacity: 1;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt {
+  width: 56%;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt p,
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt a {
+  color: #2d2d2d;
+  border-left: none;
+  padding-left: 0;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt .title {
+  font-size: 24px;
+  line-height: 45px;
+  height: 45px;
+  color: #2d2d2d;
+  transition: color .3s;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt .title:hover {
+  color: #fd3232;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item .right-txt .para {
+  font-size: 20px;
+  line-height: 35px;
+}
+.child-page .module.module-01 .main .bot .part .item-group .item:last-child {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 82px;
+}
+.child-page .module.module-01 .main .bot .part .item-group.active {
+  display: block;
+}
+.child-page .module.module-01 .main .bot .part:last-child .item:last-child {
+  border-bottom: none;
+}

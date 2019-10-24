@@ -1,0 +1,45 @@
+/* created by smpower on 2017.08.12 */
+.modal-btn {
+  background-color: #fff;
+  color: #2d2d2d;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-size: 17px;
+  padding: 13px 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .3s;
+  border: 1px solid transparent;
+}
+.modal-btn:hover {
+  color: #fff;
+  background-color: #fd3232;
+  border: 1px solid #fd3232;
+}
+.modal-content {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  top: 80px;
+}
+.modal-content .close-btn {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  right: 88px;
+  bottom: -151px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all .3s;
+  font-size: 28px;
+  color: #000;
+}
+.modal-content .close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

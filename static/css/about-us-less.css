@@ -1,0 +1,250 @@
+/*
+* created by smpower
+* email: bzsjxhywrf@outlook.com
+* github: https://github.com/smpower/
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  color: #fff;
+}
+.nav .inner ul li.active {
+  background-color: #fd3232;
+  color: #fff;
+}
+/* 模块公共样式 */
+.module .title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2d2d2d;
+}
+.module .title h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.module .title .subtitle {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+}
+.module-title .line {
+  width: 100%;
+  border-top: 2px solid #d6d5d5;
+  position: relative;
+  top: 66px;
+}
+.module-title .txt {
+  margin: 0 auto;
+  position: relative;
+  bottom: -38px;
+  color: #2d2d2d;
+}
+.module-title .txt h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+.module-title .txt p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+}
+.main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 模块公共样式 */
+.banner {
+  background: url("../image/authority-banner2.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 885px;
+}
+.child-page {
+  max-width: 1920px;
+  /* 模块三：橘子环境 */
+  /* /模块三：橘子环境 */
+  /* 模块六：服务步骤 */
+  /* /模块六：服务步骤 */
+  /* 模块七：合作媒体 */
+  /* /模块七：合作媒体 */
+}
+.child-page .main-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.child-page .module.module-03 .module-title .txt {
+  width: 403px;
+  background: url("../image/title-icon03.png") no-repeat center 8px;
+}
+.child-page .module.module-03 .main {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .child-page .module.module-03 .main img.left,
+  .child-page .module.module-03 .main img.right {
+    width: 0;
+    height: 0;
+  }
+  .child-page .module.module-03 .main .swiper-button-prev {
+    left: 310px;
+    background: url("../img/about-us/prev.png") no-repeat center center rgba(0, 0, 0, 0.3);
+    cursor: default;
+  }
+  .child-page .module.module-03 .main .swiper-button-next {
+    right: 310px;
+    background: url("../img/about-us/next.png") no-repeat center center rgba(0, 0, 0, 0.3);
+    cursor: default;
+  }
+}
+@media (min-width: 1200px) {
+  .child-page .module.module-03 .main img.left,
+  .child-page .module.module-03 .main img.right {
+    width: 545px;
+    height: 486px;
+    display: block;
+  }
+  .child-page .module.module-03 .main .swiper-button-prev {
+    left: 518px;
+    background: url("../img/about-us/prev.png") no-repeat center center rgba(0, 0, 0, 0.3);
+    cursor: default;
+  }
+  .child-page .module.module-03 .main .swiper-button-next {
+    right: 517px;
+    background: url("../img/about-us/next.png") no-repeat center center rgba(0, 0, 0, 0.3);
+    cursor: default;
+  }
+}
+.child-page .module.module-03 .main .left {
+  margin-right: 10px;
+}
+.child-page .module.module-03 .main .right {
+  margin-left: 10px;
+}
+.child-page .module.module-03 .main .swiper-container {
+  width: 819px;
+  height: 486px;
+  margin: 0 auto;
+}
+.child-page .module.module-03 .main .btn {
+  position: absolute;
+  top: 50%;
+}
+.child-page .module.module-06 .module-title .txt {
+  width: 403px;
+  background: url("../image/title-icon03.png") no-repeat center 8px;
+}
+.child-page .module.module-06 .main .top {
+  background: url("../image/m06-bg-top.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.child-page .module.module-06 .main .top .main-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.child-page .module.module-06 .main .top .main-inner .item .icon {
+  width: 130px;
+  height: 141px;
+  margin: 0 auto;
+  background-position-x: center;
+  background-position-y: 0;
+}
+.child-page .module.module-06 .main .top .main-inner .item p {
+  height: 0;
+  transition: all .3s;
+}
+.child-page .module.module-06 .main .top .main-inner .item p.title {
+  line-height: 29px;
+  height: 29px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 6px 0;
+}
+.child-page .module.module-06 .main .top .main-inner .item p.des {
+  font-size: 18px;
+  line-height: 21px;
+}
+.child-page .module.module-06 .main .top .main-inner .item:hover p {
+  color: #fd3232;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(1) .icon {
+  background: url("../image/m06-icon01-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(2) .icon {
+  background: url("../image/m06-icon02-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(3) .icon {
+  background: url("../image/m06-icon03-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(4) .icon {
+  background: url("../image/m06-icon04-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(5) .icon {
+  background: url("../image/m06-icon05-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .top .main-inner .item:nth-child(6) .icon {
+  background: url("../image/m06-icon06-top.png") no-repeat;
+}
+.child-page .module.module-06 .main .bot {
+  margin-top: 8px;
+  background: url("../image/m06-bg-bot.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.child-page .module.module-06 .main .bot .main-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.child-page .module.module-06 .main .bot .main-inner .item {
+  padding-top: 31px;
+}
+.child-page .module.module-06 .main .bot .main-inner .item .content {
+  background: url("../image/m06-icon-bot.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 265px;
+  height: 430px;
+}
+.child-page .module.module-06 .main .bot .main-inner .item .content .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #252525;
+}
+.child-page .module.module-06 .main .bot .main-inner .item .content .para {
+  font-size: 20px;
+  padding: 70px 18px 0;
+  line-height: 43px;
+  color: #fff;
+}
+.child-page .module.module-06 .main .bot .main-inner .item .btn {
+  margin: 24px 0;
+  width: 265px;
+}
+.child-page .module.module-06 .main .bot .main-inner .item .btn .modal-btn {
+  margin: 0 auto;
+}
+.child-page .module.module-07 .module-title .txt {
+  width: 403px;
+  background: url("../image/title-icon03.png") no-repeat center 8px;
+}
+.child-page .module.module-07 .main {
+  margin: 0 auto;
+  background: url("../image/page-bot.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 1061px;
+  height: 155px;
+}

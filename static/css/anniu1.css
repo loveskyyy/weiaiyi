@@ -1,0 +1,255 @@
+.back {
+	width: 200px;
+	height: 50px;
+	margin-left: 70px;
+	margin-top: 50px;
+	float: left;
+}
+
+@media screen and (max-width: 1260px) {
+	.back {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.back {
+		width: 100%;
+	}
+}
+
+.button_base {
+	margin: 0;
+	border: 0;
+	font-size: 18px;
+	position: relative;
+	width: 150px;
+	height: 50px;
+	line-height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-user-select: none;
+}
+
+.button_base:hover {
+	cursor: pointer;
+}
+
+.b03_skewed_slide_in {
+	overflow: hidden;
+}
+
+.b03_skewed_slide_in div {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+
+.b03_skewed_slide_in div:nth-child(1) {
+	color: #2D2D2D;
+	background-color: #ffffff;
+}
+
+.b03_skewed_slide_in div:nth-child(2) {
+	background-color: #2D2D2D;
+	width: 230px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transform: translate(-250px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-250px, 0px) skewX(-30deg);
+	-moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in div:nth-child(3) {
+	color: #ffffff;
+	left: -200px;
+	transition: left 0.2s ease;
+	-webkit-transition: left 0.2s ease;
+	-moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in:hover div:nth-child(2) {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transform: translate(-15px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-15px, 0px) skewX(-30deg);
+	-moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in:hover div:nth-child(3) {
+	left: 0px;
+	transition: left 0.30000000000000004s ease;
+	-webkit-transition: left 0.30000000000000004s ease;
+	-moz-transition: left 0.30000000000000004s ease;
+}
+.b04_skewed_slide_in {
+	overflow: hidden;
+}
+
+.b04_skewed_slide_in div {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+
+.b04_skewed_slide_in div:nth-child(1) {
+	color: #F0F0F0;
+	background-color: #C0C0C0;
+}
+
+.b04_skewed_slide_in div:nth-child(2) {
+	background-color: #FF3232;
+	width: 230px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transform: translate(-250px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-250px, 0px) skewX(-30deg);
+	-moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b04_skewed_slide_in div:nth-child(3) {
+	color: #F0F0F0;
+	left: -200px;
+	transition: left 0.2s ease;
+	-webkit-transition: left 0.2s ease;
+	-moz-transition: left 0.2s ease;
+}
+
+.b04_skewed_slide_in:hover div:nth-child(2) {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transform: translate(-15px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-15px, 0px) skewX(-30deg);
+	-moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b04_skewed_slide_in:hover div:nth-child(3) {
+	left: 0px;
+	transition: left 0.30000000000000004s ease;
+	-webkit-transition: left 0.30000000000000004s ease;
+	-moz-transition: left 0.30000000000000004s ease;
+}
+.b05_skewed_slide_in {
+	overflow: hidden;
+}
+
+.b05_skewed_slide_in div {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+
+.b05_skewed_slide_in div:nth-child(1) {
+	color: #F0F0F0;
+	background-color: #2D2D2D;
+}
+
+.b05_skewed_slide_in div:nth-child(2) {
+	background-color: #CCCCCC;
+	width: 230px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transform: translate(-250px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-250px, 0px) skewX(-30deg);
+	-moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b05_skewed_slide_in div:nth-child(3) {
+	color: #2D2D2D;
+	left: -200px;
+	transition: left 0.2s ease;
+	-webkit-transition: left 0.2s ease;
+	-moz-transition: left 0.2s ease;
+}
+
+.b05_skewed_slide_in:hover div:nth-child(2) {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transform: translate(-15px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-15px, 0px) skewX(-30deg);
+	-moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b05_skewed_slide_in:hover div:nth-child(3) {
+	left: 0px;
+	transition: left 0.30000000000000004s ease;
+	-webkit-transition: left 0.30000000000000004s ease;
+	-moz-transition: left 0.30000000000000004s ease;
+}
+.b06_skewed_slide_in {
+	overflow: hidden;
+}
+
+.b06_skewed_slide_in div {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+
+.b06_skewed_slide_in div:nth-child(1) {
+	color: #2D2D2D;
+	background-color: #ffffff;
+}
+
+.b06_skewed_slide_in div:nth-child(2) {
+	background-color: #FF3232;
+	width: 230px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transform: translate(-250px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-250px, 0px) skewX(-30deg);
+	-moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b06_skewed_slide_in div:nth-child(3) {
+	color: #ffffff;
+	left: -200px;
+	transition: left 0.2s ease;
+	-webkit-transition: left 0.2s ease;
+	-moz-transition: left 0.2s ease;
+}
+
+.b06_skewed_slide_in:hover div:nth-child(2) {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transform: translate(-15px, 0px) skewX(-30deg);
+	-webkit-transform: translate(-15px, 0px) skewX(-30deg);
+	-moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b06_skewed_slide_in:hover div:nth-child(3) {
+	left: 0px;
+	transition: left 0.30000000000000004s ease;
+	-webkit-transition: left 0.30000000000000004s ease;
+	-moz-transition: left 0.30000000000000004s ease;
+}

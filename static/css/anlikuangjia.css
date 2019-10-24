@@ -1,0 +1,208 @@
+
+h4{
+	margin-top: 20px;
+	margin-left: 20px;
+	letter-spacing:1px;
+}
+p{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	letter-spacing:1px;
+}
+h3{
+  letter-spacing:1px;
+}
+a{
+	color: #2D2D2D;
+}
+a:link{
+	color: #2D2D2D;
+}
+a:active{
+	color: #2D2D2D;
+}
+a:hover{
+	color: #2D2D2D;
+}
+a:visited{
+	color: #2D2D2D;
+}
+
+/* Start : 子页面隐藏菜单的文字颜色 */
+.sec-nav-inner a {
+	color: #fff;
+}
+/* End : 子页面隐藏菜单的文字颜色 */
+
+.w1200{
+	width: 1400px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	margin-bottom: 100px;
+}
+.biaoti{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.left1{
+	width: 900px;
+	float: left;
+	margin-top: 50px;
+}
+.datu{
+	width: 900px;
+}
+.datu img{
+	width: 820px;
+	height: 400px;
+}
+.left1 h2{
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 30;
+	letter-spacing:1px;
+	text-align: center;
+	color: #FF3232;
+}
+.left1 h2:hover{
+	color: #FF3232;
+}
+.left1 h3{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.left1 p{
+	text-indent: 40px;
+	line-height: 1.8em;
+	color: #646464;
+}
+.left1 div{
+	margin-left: 30px;
+  padding-top: 18px;
+  width: 100%;
+  height: 51px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #434343;
+}
+.left1 div .hong{
+	height: 20px;
+	width: 10px;
+	background-color: #FF3232;
+	float: left;
+	margin-right: 10px;
+}
+.left1 img{
+  display: block;
+  margin: 20px auto;
+}
+
+.right1{
+	margin-top: 50px;
+	width: 400px;
+	float: right;
+	height: 700px;
+}
+.right1 h3{
+
+	margin-left: 20px;
+  padding-top: 18px;
+  width: 175px;
+  height: 51px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 51px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #434343;
+	background: url("../image/cis_a.png") no-repeat center center;
+	letter-spacing:1px;
+}
+.right1 ul li{
+	margin-left: 70px;
+	line-height: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.jieshao{
+	width: 370px;
+	margin-left: 60px;
+}
+.jieshao span{
+	letter-spacing:1px;
+	font-size: 18px;
+}
+.right1 a{
+	color: #FF3232;
+	letter-spacing:1px;
+}
+.right1 a:hover{
+	color: #2D2D2D;
+}
+
+
+
+.pic-right {
+	margin-bottom: 10px;
+}
+.bold {
+	font-weight: bold;
+}
+.jieshao img {
+	display: block;
+	width: 340px;
+}
+header .pull-right .txt {
+	position: relative;
+	top: -10px;
+	margin-left: 0;
+}
+header .pull-right .txt p {
+	color: #2d2d2d;
+	height: 0;
+}
+header .pull-right .txt p:first-child {
+	line-height: 0;
+	font-size: 16px;
+}
+header .pull-right .txt p:nth-child(2) {
+	font-size: 16px;
+}
+
+.pic-right {
+	margin-bottom: 10px;
+}
+.bold {
+	font-weight: bold;
+}
+.jieshao img {
+	display: block;
+	width: 340px;
+}
+header .pull-right .txt {
+	position: relative;
+	top: -10px;
+	margin-left: 0;
+}
+header .pull-right .txt p {
+	color: #2d2d2d;
+	height: 0;
+}
+header .pull-right .txt p:first-child {
+	line-height: 0;
+	font-size: 16px;
+}
+header .pull-right .txt p:nth-child(2) {
+	font-size: 16px;
+}
+
+/** 商务通插件 */
+#LRdiv1 p { margin: 0; font-size: 12px; }

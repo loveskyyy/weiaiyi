@@ -1,0 +1,178 @@
+/*
+ * created by smpower
+ * email: bzsjxhywrf@outlook.com
+ * GitHub: https://github.com/smpower/
+ */
+* {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  color: #2d2d2d;
+}
+a:hover {
+  color: #fff;
+}
+.nav .inner ul li.active {
+  background-color: #fd3232;
+  color: #fff;
+}
+/* 模块公共样式 */
+.module .title {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2d2d2d;
+}
+.module .title h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.module .title .subtitle {
+  font-size: 14px;
+  letter-spacing: 2.5px;
+}
+.module-title .line {
+  width: 100%;
+  border-top: 2px solid #d6d5d5;
+  position: relative;
+  top: 66px;
+}
+.module-title .txt {
+  margin: 0 auto;
+  position: relative;
+  bottom: -38px;
+  color: #2d2d2d;
+}
+.module-title .txt h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+.module-title .txt p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+}
+/* 模块公共样式 */
+.child-page {
+  /* 模块三：橘子情感首席导师 */
+  /* 模块三：橘子情感首席导师 */
+}
+.child-page .module.module-03 {
+  min-width: 1200px;
+}
+.child-page .module.module-03 .module-title .txt {
+  width: 403px;
+  background: url("../image/title-icon03.png") no-repeat center 8px;
+}
+.child-page .module.module-03 .main .page {
+  margin-top: 5px;
+  background: url("../image/m03-bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.child-page .module.module-03 .main .page .item-group {
+  display: flex;
+  justify-content: space-around;
+  padding: 84px 358px 0;
+}
+.child-page .module.module-03 .main .page .item-group .item {
+  display: flex;
+  width: 545px;
+  height: 348px;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 18px;
+  width: 256px;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt .name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt .des {
+  font-size: 20px;
+  width: 225px;
+  line-height: 28px;
+  padding-top: 15px;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt .btn {
+  padding: 0;
+  text-align: left;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt .btn button {
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #2d2d2d;
+  background-color: #fff;
+  color: #2d2d2d;
+  margin-top: 30px;
+}
+.child-page .module.module-03 .main .page .item-group .item .txt .btn button:nth-child(2) {
+  background-color: #fd3232;
+  border: 1px solid #fd3232;
+  color: #fff;
+  margin-left: 15px;
+}
+.child-page .module.module-03 .main .page .item-group:nth-child(2) {
+  padding-bottom: 86px;
+}
+.child-page .module.module-03 .main .page {
+  display: none;
+}
+.child-page .module.module-03 .main .page.active {
+  display: block;
+}
+.child-page .module.module-03 .page-control {
+  display: flex;
+  justify-content: center;
+  color: #fd3232;
+}
+.child-page .module.module-03 .page-control div {
+  border: 1px solid #c1c1c1;
+  margin-right: 3px;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+.child-page .module.module-03 .page-control .first-page.active {
+  color: #c1c1c1;
+}
+.child-page .module.module-03 .page-control .prev-page.active {
+  color: #c1c1c1;
+}
+.child-page .module.module-03 .page-control .page-num {
+  border: none;
+  padding: 0;
+}
+.child-page .module.module-03 .page-control .page-num span {
+  display: inline-block;
+  border: 1px solid #c1c1c1;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.child-page .module.module-03 .page-control .page-num span.active {
+  color: #fff;
+  background-color: #fd3232;
+  border: 1px solid #fd3232;
+}
+.child-page .module.module-03 .page-control .total-page {
+  border: 1px solid #fd3232;
+}

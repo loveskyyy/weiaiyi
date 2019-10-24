@@ -1,0 +1,289 @@
+/*
+ * 标题样式CSS
+ */
+.biaoti4 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti4 img {
+  position: absolute;
+  width: 45%;
+  top: 10px;
+}
+
+.biaoti4 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti4 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti4 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti4 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+
+.biaoti5 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti5 img {
+  position: absolute;
+  width: 44%;
+  top: 10px;
+}
+.biaoti5 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti5 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti5 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti5 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+
+.biaoti6 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti6 img {
+  position: absolute;
+  width: 42.7%;
+  top: 10px;
+}
+.biaoti6 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti6 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti6 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti6 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+.biaoti7 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti7 img {
+  position: absolute;
+  width: 42%;
+  top: 15px;
+}
+.biaoti7 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti7 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti7 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti7 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+
+.biaoti8 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti8 img {
+  position: absolute;
+  width: 40.7%;
+  top: 10px;
+}
+.biaoti8 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti8 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti8 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti8 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+.biaoti9 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti9 img {
+  position: absolute;
+  width: 39.5%;
+  top: 10px;
+}
+.biaoti9 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti9 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti9 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti9 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+.biaoti10 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti10 img {
+  position: absolute;
+  width: 38.5%;
+  top: 12px;
+}
+.biaoti10 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti10 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti10 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti10 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+
+.biaoti11 {
+  width: 100%;
+  min-width: 1106px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.biaoti11 img {
+  position: absolute;
+  width: 37.5%;
+  top: 12px;
+}
+.biaoti11 img:nth-child(1) {
+  left: 0;
+  margin-right: 10px;
+}
+.biaoti11 img:nth-child(3) {
+  right: 0;
+  margin-left: 10px;
+}
+.biaoti11 span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.biaoti11 p {
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+/*
+ * 手机端样式
+ */
+@media only screen and (max-width: 1199px) {
+	.biaoti4 img{
+  		width: 43.5%;
+	}
+	.biaoti5 img{
+  		width: 42%;
+	}
+	.biaoti6 img{
+  		width: 41%;
+	}
+	.biaoti7 img{
+  		width: 40%;
+	}
+	.biaoti8 img{
+  		width: 38%;
+	}
+	.biaoti9 img{
+  		width: 37%;
+	}
+	.biaoti10 img{
+  		width: 35.5%;
+	}
+	.biaoti11 img{
+  		width: 34%;
+	}
+}

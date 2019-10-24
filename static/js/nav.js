@@ -14,12 +14,12 @@ var nav = (function () {
         '<!-- <li>' +
           '<a href="separate-mistress.html">分离小三</a>' +
         '</li> -->' +
-        '<li>' +
-          '<a href="custom-love.html">定制爱情</a>' +
-        '</li>' +
-        '<li>' +
-          '<a href="emotion-forum.html">情感论坛</a>' +
-        '</li>' +
+        // '<li>' +
+        //   '<a href="custom-love.html">定制爱情</a>' +
+        // '</li>' +
+        // '<li>' +
+        //   '<a href="emotion-forum.html">情感论坛</a>' +
+        // '</li>' +
         '<li>' +
           '<a href="focus-team.html">导师团队</a>' +
         '</li>' +
